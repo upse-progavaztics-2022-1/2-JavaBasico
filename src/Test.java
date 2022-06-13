@@ -52,6 +52,39 @@ public class Test {
 		
 		double miNumero = 0;
 		System.out.println(miNumero);
+		
+		miNumero = miNumero + 2;
+		System.out.println("Mi numero es: " + miNumero);
+		
+		miNumero += 2;
+		System.out.println("Mi numero ahora es: " + miNumero);
+		
+//		int enteroNoEntero = 2.3;
+		int doubleEntero = 3;
+		
+		int miEntero = 33333;
+		System.out.println("Mi entero es: " + miEntero);
+		
+		byte miByte = (byte)miEntero;
+		System.out.println("Mi byte es: " + miByte);
+		
+		short miShort = (short) miEntero;
+		System.out.println("Mi short es: " + miShort);
+		
+		float miDouble = (float)3.1;
+		System.out.println("Mi float es: " + miDouble);
+		
+		String frase = "Hello";
+		frase = "Chao";
+		System.out.println(frase);
+		
+		int numeroPersonas = 3;
+		int numeroBombones = 5;
+		double bombonesPorPersona = ((double)numeroBombones/numeroPersonas);
+		System.out.println("Los bombones por persona son: " + bombonesPorPersona);
+		
+		
+		
 
 	}
 
